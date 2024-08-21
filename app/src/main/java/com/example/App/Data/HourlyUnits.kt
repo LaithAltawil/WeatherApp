@@ -1,4 +1,4 @@
-package com.example.myapplication.Data
+package com.example.App.Data
 
 data class HourlyUnits(
     val relative_humidity_2m: String,

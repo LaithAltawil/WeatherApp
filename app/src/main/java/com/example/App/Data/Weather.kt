@@ -1,4 +1,4 @@
-package com.example.myapplication.Data
+package com.example.App.Data
 
 data class Weather(
     val elevation: Int,
