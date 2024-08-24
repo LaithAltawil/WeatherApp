@@ -18,7 +18,7 @@ class WeatherViewModel @Inject constructor(
     private val locationTracker: LocationTracker
 ) : ViewModel() {
 
-    private var state by mutableStateOf(WeatherState())
+    var state by mutableStateOf(WeatherState())
 
     fun loadWeatherInfo() {
         viewModelScope.launch {
